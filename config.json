@@ -1,0 +1,15 @@
+{
+  "inbounds": [{
+    "port": 8080,
+    "protocol": "vless",
+    "settings": {
+      "clients": [{"id": "6f90d16b-8e13-4e4a-a431-778899aabbcc"}],
+      "decryption": "none"
+    },
+    "streamSettings": {
+      "network": "ws",
+      "wsSettings": {"path": "/"}
+    }
+  }],
+  "outbounds": [{"protocol": "freedom"}]
+}
